@@ -1,0 +1,89 @@
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-link{
+    font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
+    
+    color: darkblue;
+}
+
+.jumbotron {
+    background-color: #a4e0f2 !important;
+}
+.img-fluid{
+    height: 400px !important;
+   border-radius: 45px;
+   
+}
+.color-overlay{
+    background-color: rgba(0, 0, 0, .5);
+}
+.Picture{
+    padding: 75px;
+    
+}
+p{
+    font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
+    
+    color: darkblue;
+
+    padding-top: 5px;
+}
+h1{
+    font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
+    
+    color: darkblue;
+
+    padding-top: 150px;
+}
+.navbar-brand{
+    font-family: Aclonica; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26px;
+}
+
+
+
+h2 {
+    color: #B1B2FF;
+}
+
+h3 {
+    color: #5F9DF7;
+}
+#about,
+#skills,
+#work,
+#contacts{
+    height: 500px;
+      
+    
+}
+#skills{
+    background-color: darkblue;
+    padding: 75px;
+   
+    
+}
+#work{
+    background-color: #01e9ed;
+    padding: 75px;
+   
+    
+}
+#contacts{
+    background-color: #a3a3ff;
+    padding: 75px;
+   
+    
+}
+.col-cards{
+    padding: 5px !important;
+}

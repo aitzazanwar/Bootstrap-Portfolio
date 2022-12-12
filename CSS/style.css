@@ -17,33 +17,41 @@ html{
 }
 
 .jumbotron {
-    background-color: #a4e0f2 !important;
-}
-.img-fluid{
-    height: 400px !important;
-   border-radius: 45px;
-   
-}
-.color-overlay{
-    background-color: rgba(0, 0, 0, .5);
-}
-.Picture{
-    padding: 75px;
+    background-color: darkblue !important;
+    padding: 0px !important;
     
 }
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+section{
+    width: 100%;
+}
+ .img-fluid{
+    height: 40vh !important;
+    
+    border-radius: 45px;
+}
+
+
 p{
     font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
     
-    color: darkblue;
-
-    padding-top: 5px;
+    color: #B1B2FF;
 }
+
+
+    
+
 h1{
     font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
     
-    color: darkblue;
+    color:#B1B2FF !important ;
 
-    padding-top: 150px;
+    
+    
 }
 .navbar-brand{
     font-family: Aclonica; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26px;
@@ -58,16 +66,18 @@ h2 {
 h3 {
     color: #5F9DF7;
 }
-#about,
+#about{
+    min-height: 400px;
+}
 #skills,
 #work,
 #contacts{
-    height: 500px;
-      
+    min-height: 700px;
+
     
 }
 #skills{
-    background-color: darkblue;
+    background-color: #a3a3ff;
     padding: 75px;
    
     
@@ -86,4 +96,8 @@ h3 {
 }
 .col-cards{
     padding: 5px !important;
+}
+.Skills{
+    color: black;
+    padding: 25px;
 }

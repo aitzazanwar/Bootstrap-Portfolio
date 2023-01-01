@@ -5,6 +5,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Aclonica;
     
 }
 html{
@@ -13,11 +14,26 @@ html{
 .nav-link{
     font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
     
-    color: darkblue;
+    
 }
 
+/*#aboutLink{
+    color: #ffe2ef80;
+    
+}
+#skillsLink{
+    color:#a3a3ff;
+}
+#workLink{
+    color: #05204a;
+}
+#contactsLink{
+    color:#02020A;
+}*/
+
+
 .jumbotron {
-    background-color: darkblue !important;
+    background:linear-gradient(rgba(9, 9, 9, 0.2),rgba(0,0,0,0.2));
     padding: 0px !important;
     
 }
@@ -28,18 +44,27 @@ html{
 }
 section{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
  .img-fluid{
-    height: 40vh !important;
-    
-    border-radius: 45px;
+    height: 30vh !important;
+    border-radius: 05px;
 }
+#about .img-fluid{
+    height: 50vh !important;
+    
+    border-radius: 05px;    
+}
+
+
 
 
 p{
     font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
     
-    color: #B1B2FF;
+
 }
 
 
@@ -48,34 +73,80 @@ p{
 h1{
     font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
     
-    color:#B1B2FF !important ;
+    /*color:black !important ;*/
+}
+h2{
+    font-family: Aclonica; font-size: 14px; font-style: normal; font-variant: normal; font-weight:300; line-height: 26px;  
+    
+    /*color:black !important ;*/
 
     
     
 }
 .navbar-brand{
     font-family: Aclonica; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26px;
+    color: white;
 }
 
-
-
-h2 {
-    color: #B1B2FF;
-}
 
 h3 {
     color: #5F9DF7;
 }
-#about{
-    min-height: 400px;
+section{
+
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a3a3ff;
+    
+
 }
+.container{
+    padding:70px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    height:600px;
+    background: url("/images/my-img2.jpg") no-repeat center / cover;
+    border-radius: 5px;
+}
+.right{
+    width: 50%;
+    height:400px;
+    border-radius: 5px;
+    background-color: #05204a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;   
+}
+.right h2 ,p{
+    color: whitesmoke !important;
+    padding: 20px;
+}
+/*#about{
+    min-height: 800px;
+    background:linear-gradient(rgba(9, 9, 9, 0.2),rgba(0,0,0,0.2));
+    padding: 150px;
+    
+}*/
 #skills,
 #work,
 #contacts{
     min-height: 700px;
-
+    padding: 75px;
     
 }
+
+
 #skills{
     background-color: #a3a3ff;
     padding: 75px;
@@ -83,16 +154,27 @@ h3 {
     
 }
 #work{
-    background-color: #01e9ed;
+    background-color: #05204a;
     padding: 75px;
    
     
 }
 #contacts{
-    background-color: #a3a3ff;
-    padding: 75px;
+    background-color: #02020A;
+    padding: 75px;   
+}
+.icons{
+    padding-bottom: 80px;
+}
+
+#contacts p{
+    color: white;
+    font-size: 22px;
+    line-height: 1.5em; ;
    
-    
+}
+footer, p{
+    color: black;
 }
 .col-cards{
     padding: 5px !important;
@@ -101,3 +183,44 @@ h3 {
     color: black;
     padding: 25px;
 }
+.card-body{
+    background-color:#05204a !important ;
+    color: #E1E2EF !important;
+}
+.card-body p{
+    
+    color: #E1E2EF !important;
+}
+.card-img-top{
+    background-color:#05204a ;  
+}
+.card{
+    border:0px !important;
+    width: max-content;
+}
+.btn-success:hover{
+    background-color: #a3a3ff !important;
+    box-shadow: 5px 5px !important;
+}
+#copyRight p{
+    color: #02020A !important;
+}
+@media only screen and (max-width:768px){
+
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 400px;
+
+    }
+    .right{
+        width: 80%;
+        margin: 0px;
+        margin-top: -100px;
+    }
+   
+}
+
+

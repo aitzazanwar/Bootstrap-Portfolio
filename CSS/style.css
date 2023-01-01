@@ -113,11 +113,12 @@ section{
     justify-content: center;
 }
 .left{
-    width: 50%;
+    width: 100%;
     height:600px;
-    background: url("/images/my-img2.png") no-repeat center / cover;
+    background: url("") no-repeat center / cover;
     border-radius: 5px;
 }
+
 .right{
     width: 50%;
     height:400px;
